@@ -1,0 +1,90 @@
+body{
+    background-color:rgb(233, 233, 233);
+}
+
+.navbar-nav{
+    align-items: center;
+    justify-content:space-between!important;
+}
+
+.hello{
+    font-size: 12px;
+    color:rgb(192, 192, 192);
+    margin: 10px;
+}
+
+.hello span {
+    color:rgb(192, 192, 192);
+    display:block;
+    overflow:visible;
+}
+
+.hello:hover span{
+    color:white;
+}
+#searchbox{
+    width: 45vw;
+    min-width: 200px;
+    margin-right: 5px;
+}
+
+.nav-item:hover{
+    border: 1px solid white;
+    transition:all 0.25s;
+}
+
+.auth{
+    margin: 10px;
+    color:white;
+}
+.authLinks{
+    display:inline-block
+}
+.orders{
+    font-size:18px;
+    color:white!important;
+}
+.cart{
+    margin: 10px;
+    color:white!important;
+}
+.MainBody{
+    margin: 10px 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    margin: 15px;
+}
+.heading{
+    margin : 15px 15px;
+    text-align: center;
+}
+
+.cardGrid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.grid-img{
+    margin:5px;
+    width:186px;
+    height:116px;
+    transition:all 0.25s ease;
+
+}
+
+.grid-img:hover{
+    transition:all 0.25s ease;
+    transform:scale(1.1,1.1);
+}
+
+.cardGridFull{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
