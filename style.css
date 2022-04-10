@@ -1,0 +1,14 @@
+body {
+  width: 1520px;
+  background-color: #f8e0b3;
+  height: 700px;
+  background-image: url(/TeamDelta-Hackathalon/lucrezia-carnelos-wQ9VuP_Njr4-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.maindiv {
+  color: black;
+  padding-top: 60px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 10px;
+}
